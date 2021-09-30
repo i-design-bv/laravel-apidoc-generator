@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tools;
+namespace Bchalier\ApiDoc\Tools;
 
 use Illuminate\Routing\Route;
 use League\Flysystem\Adapter\Local;

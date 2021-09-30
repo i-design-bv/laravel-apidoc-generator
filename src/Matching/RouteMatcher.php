@@ -1,12 +1,12 @@
 <?php
 
-namespace Mpociot\ApiDoc\Matching;
+namespace Bchalier\ApiDoc\Matching;
 
+use Bchalier\ApiDoc\Matching\RouteMatcher\Match;
 use Dingo\Api\Routing\RouteCollection;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Facades\Route as RouteFacade;
 use Illuminate\Support\Str;
-use Mpociot\ApiDoc\Matching\RouteMatcher\Match;
 
 class RouteMatcher implements RouteMatcherInterface
 {

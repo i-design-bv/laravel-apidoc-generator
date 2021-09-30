@@ -1,5 +1,5 @@
 {
-    "name": "mpociot/laravel-apidoc-generator",
+    "name": "bchalier/laravel-apidoc-generator",
     "license": "MIT",
     "description": "Generate beautiful API documentation from your Laravel application",
     "keywords": [
@@ -41,12 +41,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mpociot\\ApiDoc\\": "src/"
+            "Bchalier\\ApiDoc\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mpociot\\ApiDoc\\Tests\\": "tests/"
+            "Bchalier\\ApiDoc\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -57,7 +57,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mpociot\\ApiDoc\\ApiDocGeneratorServiceProvider"
+                "Bchalier\\ApiDoc\\ApiDocGeneratorServiceProvider"
             ]
         },
         "branch-alias": {

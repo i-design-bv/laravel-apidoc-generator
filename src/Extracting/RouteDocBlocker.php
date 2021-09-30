@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpociot\ApiDoc\Extracting;
+namespace Bchalier\ApiDoc\Extracting;
 
+use Bchalier\ApiDoc\Tools\Utils;
 use Illuminate\Routing\Route;
-use Mpociot\ApiDoc\Tools\Utils;
-use Mpociot\Reflection\DocBlock;
+use Bchalier\Reflection\DocBlock;
 use ReflectionClass;
 
 /**

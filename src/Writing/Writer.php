@@ -1,11 +1,11 @@
 <?php
 
-namespace Mpociot\ApiDoc\Writing;
+namespace Bchalier\ApiDoc\Writing;
 
+use Bchalier\ApiDoc\Tools\DocumentationConfig;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
-use Mpociot\ApiDoc\Tools\DocumentationConfig;
 use Mpociot\Documentarian\Documentarian;
 
 class Writer

@@ -1,21 +1,20 @@
 <?php
 
-namespace Mpociot\ApiDoc\Extracting\Strategies\Responses;
+namespace Bchalier\ApiDoc\Extracting\Strategies\Responses;
 
+use Bchalier\ApiDoc\Extracting\RouteDocBlocker;
+use Bchalier\ApiDoc\Extracting\Strategies\Strategy;
+use Bchalier\ApiDoc\Tools\Flags;
+use Bchalier\ApiDoc\Tools\Utils;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
-use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Arr;
 use League\Fractal\Resource\Collection;
-use Mpociot\ApiDoc\Extracting\RouteDocBlocker;
-use Mpociot\ApiDoc\Extracting\Strategies\Strategy;
-use Mpociot\ApiDoc\Tools\Flags;
-use Mpociot\ApiDoc\Tools\Utils;
-use Mpociot\Reflection\DocBlock;
+use Bchalier\Reflection\DocBlock;
 use Mpociot\Reflection\DocBlock\Tag;
 use ReflectionClass;
 use ReflectionMethod;

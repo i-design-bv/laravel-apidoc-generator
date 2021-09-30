@@ -1,14 +1,14 @@
 <?php
 
-namespace Mpociot\ApiDoc\Extracting\Strategies\UrlParameters;
+namespace Bchalier\ApiDoc\Extracting\Strategies\UrlParameters;
 
+use Bchalier\ApiDoc\Extracting\ParamHelpers;
+use Bchalier\ApiDoc\Extracting\RouteDocBlocker;
+use Bchalier\ApiDoc\Extracting\Strategies\Strategy;
 use Dingo\Api\Http\FormRequest as DingoFormRequest;
 use Illuminate\Foundation\Http\FormRequest as LaravelFormRequest;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Str;
-use Mpociot\ApiDoc\Extracting\ParamHelpers;
-use Mpociot\ApiDoc\Extracting\RouteDocBlocker;
-use Mpociot\ApiDoc\Extracting\Strategies\Strategy;
 use Mpociot\Reflection\DocBlock;
 use Mpociot\Reflection\DocBlock\Tag;
 use ReflectionClass;

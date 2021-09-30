@@ -1,12 +1,12 @@
 <?php
 
-namespace Mpociot\ApiDoc;
+namespace Bchalier\ApiDoc;
 
 use Illuminate\Support\ServiceProvider;
-use Mpociot\ApiDoc\Commands\GenerateDocumentation;
-use Mpociot\ApiDoc\Commands\RebuildDocumentation;
-use Mpociot\ApiDoc\Matching\RouteMatcher;
-use Mpociot\ApiDoc\Matching\RouteMatcherInterface;
+use Bchalier\ApiDoc\Commands\GenerateDocumentation;
+use Bchalier\ApiDoc\Commands\RebuildDocumentation;
+use Bchalier\ApiDoc\Matching\RouteMatcher;
+use Bchalier\ApiDoc\Matching\RouteMatcherInterface;
 
 class ApiDocGeneratorServiceProvider extends ServiceProvider
 {

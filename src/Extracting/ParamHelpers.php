@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Extracting;
+namespace Bchalier\ApiDoc\Extracting;
 
 use Faker\Factory;
 use stdClass;

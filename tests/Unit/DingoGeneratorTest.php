@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tests\Unit;
+namespace Bchalier\ApiDoc\Tests\Unit;
 
+use Bchalier\ApiDoc\ApiDocGeneratorServiceProvider;
+use Bchalier\ApiDoc\Tests\Fixtures\TestController;
 use Dingo\Api\Routing\Router;
-use Mpociot\ApiDoc\ApiDocGeneratorServiceProvider;
-use Mpociot\ApiDoc\Tests\Fixtures\TestController;
 
 /**
  * @group dingo

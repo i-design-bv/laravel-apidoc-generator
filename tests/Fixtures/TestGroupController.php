@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tests\Fixtures;
+namespace Bchalier\ApiDoc\Tests\Fixtures;
 
 /**
  * @group 1. Group 1

@@ -1,7 +1,11 @@
 <?php
 
-namespace Mpociot\ApiDoc\Extracting\Strategies\Responses;
+namespace Bchalier\ApiDoc\Extracting\Strategies\Responses;
 
+use Bchalier\ApiDoc\Extracting\RouteDocBlocker;
+use Bchalier\ApiDoc\Extracting\Strategies\Strategy;
+use Bchalier\ApiDoc\Tools\Flags;
+use Bchalier\ApiDoc\Tools\Utils;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model as IlluminateModel;
@@ -10,10 +14,6 @@ use Illuminate\Support\Arr;
 use League\Fractal\Manager;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Resource\Item;
-use Mpociot\ApiDoc\Extracting\RouteDocBlocker;
-use Mpociot\ApiDoc\Extracting\Strategies\Strategy;
-use Mpociot\ApiDoc\Tools\Flags;
-use Mpociot\ApiDoc\Tools\Utils;
 use Mpociot\Reflection\DocBlock;
 use Mpociot\Reflection\DocBlock\Tag;
 use ReflectionClass;

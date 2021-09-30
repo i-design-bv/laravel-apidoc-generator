@@ -1,16 +1,16 @@
 <?php
 
-namespace Mpociot\ApiDoc\Extracting\Strategies\Responses;
+namespace Bchalier\ApiDoc\Extracting\Strategies\Responses;
 
+use Bchalier\ApiDoc\Extracting\ParamHelpers;
+use Bchalier\ApiDoc\Extracting\Strategies\Strategy;
+use Bchalier\ApiDoc\Tools\Flags;
+use Bchalier\ApiDoc\Tools\Utils;
 use Dingo\Api\Dispatcher;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Str;
-use Mpociot\ApiDoc\Extracting\ParamHelpers;
-use Mpociot\ApiDoc\Extracting\Strategies\Strategy;
-use Mpociot\ApiDoc\Tools\Flags;
-use Mpociot\ApiDoc\Tools\Utils;
 
 /**
  * Make a call to the route and retrieve its response.

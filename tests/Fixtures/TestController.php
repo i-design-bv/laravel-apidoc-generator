@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tests\Fixtures;
+namespace Bchalier\ApiDoc\Tests\Fixtures;
 
+use Bchalier\ApiDoc\Tests\Unit\GeneratorTestCase;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Mpociot\ApiDoc\Tests\Unit\GeneratorTestCase;
 
 /**
  * @group Group A

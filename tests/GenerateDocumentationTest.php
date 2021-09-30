@@ -1,18 +1,17 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tests;
+namespace Bchalier\ApiDoc\Tests;
 
-use Illuminate\Support\Facades\App;
+use Bchalier\ApiDoc\ApiDocGeneratorServiceProvider;
+use Bchalier\ApiDoc\Tests\Fixtures\TestController;
+use Bchalier\ApiDoc\Tests\Fixtures\TestGroupController;
+use Bchalier\ApiDoc\Tests\Fixtures\TestPartialResourceController;
+use Bchalier\ApiDoc\Tests\Fixtures\TestResourceController;
+use Bchalier\ApiDoc\Tests\Fixtures\TestUser;
+use Bchalier\ApiDoc\Tools\Utils;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route as RouteFacade;
 use Illuminate\Support\Str;
-use Mpociot\ApiDoc\ApiDocGeneratorServiceProvider;
-use Mpociot\ApiDoc\Tests\Fixtures\TestController;
-use Mpociot\ApiDoc\Tests\Fixtures\TestGroupController;
-use Mpociot\ApiDoc\Tests\Fixtures\TestPartialResourceController;
-use Mpociot\ApiDoc\Tests\Fixtures\TestResourceController;
-use Mpociot\ApiDoc\Tests\Fixtures\TestUser;
-use Mpociot\ApiDoc\Tools\Utils;
 use Orchestra\Testbench\TestCase;
 use ReflectionException;
 
