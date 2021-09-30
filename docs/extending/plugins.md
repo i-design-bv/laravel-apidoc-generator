@@ -130,7 +130,7 @@ You are also provided with the instance pproperty `stage`, which is set to the n
 ## Utilities
 You have access to a number of tools when developing strategies. They include:
 
-- The `RouteDocBlocker` class (in the `\Bchalier\ApiDoc\Extracting` namespace) has a single public static method, `getDocBlocksFromRoute(Route $route)`. It allows you to retrieve the docblocks for a given route. It returns an array of with two keys: `method` and `class` containing the docblocks for the method and controller handling the route respectively. Both are instances of `\Bchalier\Reflection\DocBlock`.
+- The `RouteDocBlocker` class (in the `\Bchalier\ApiDoc\Extracting` namespace) has a single public static method, `getDocBlocksFromRoute(Route $route)`. It allows you to retrieve the docblocks for a given route. It returns an array of with two keys: `method` and `class` containing the docblocks for the method and controller handling the route respectively. Both are instances of `\Mpociot\Reflection\DocBlock`.
 
 - The `ParamsHelper` trait (in the `\Bchalier\ApiDoc\Extracting` namespace) can be included in your strategies. It contains a number of useful methods for working with parameters, including type casting and generating dummy values.
 

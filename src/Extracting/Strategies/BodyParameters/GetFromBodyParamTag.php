@@ -8,8 +8,8 @@ use Bchalier\ApiDoc\Extracting\Strategies\Strategy;
 use Dingo\Api\Http\FormRequest as DingoFormRequest;
 use Illuminate\Foundation\Http\FormRequest as LaravelFormRequest;
 use Illuminate\Routing\Route;
-use Bchalier\Reflection\DocBlock;
-use Bchalier\Reflection\DocBlock\Tag;
+use Mpociot\Reflection\DocBlock;
+use Mpociot\Reflection\DocBlock\Tag;
 use ReflectionClass;
 use ReflectionMethod;
 

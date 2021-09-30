@@ -3,7 +3,7 @@
 namespace Bchalier\ApiDoc\Commands;
 
 use Bchalier\ApiDoc\Extracting\Generator;
-use Bchalier\ApiDoc\Matching\RouteMatcher\Match;
+use Bchalier\ApiDoc\Matching\RouteMatcher\Matcher;
 use Bchalier\ApiDoc\Matching\RouteMatcherInterface;
 use Bchalier\ApiDoc\Tools\DocumentationConfig;
 use Bchalier\ApiDoc\Tools\Flags;
@@ -13,7 +13,7 @@ use Illuminate\Console\Command;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;
-use Bchalier\Reflection\DocBlock;
+use Mpociot\Reflection\DocBlock;
 use ReflectionClass;
 use ReflectionException;
 
@@ -84,7 +84,7 @@ class GenerateDocumentation extends Command
 
     /**
      * @param \Bchalier\ApiDoc\Extracting\Generator $generator
-     * @param Match[] $routes
+     * @param Matcher[] $routes
      *
      * @return array
      *@throws \ReflectionException

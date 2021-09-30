@@ -5,8 +5,8 @@ namespace Bchalier\ApiDoc\Extracting\Strategies\Metadata;
 use Bchalier\ApiDoc\Extracting\RouteDocBlocker;
 use Bchalier\ApiDoc\Extracting\Strategies\Strategy;
 use Illuminate\Routing\Route;
-use Bchalier\Reflection\DocBlock;
-use Bchalier\Reflection\DocBlock\Tag;
+use Mpociot\Reflection\DocBlock;
+use Mpociot\Reflection\DocBlock\Tag;
 use ReflectionClass;
 use ReflectionMethod;
 

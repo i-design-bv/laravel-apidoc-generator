@@ -4,7 +4,7 @@ namespace Bchalier\ApiDoc\Matching\RouteMatcher;
 
 use Illuminate\Routing\Route;
 
-class Match implements \ArrayAccess
+class Matcher implements \ArrayAccess
 {
     /**
      * @var Route

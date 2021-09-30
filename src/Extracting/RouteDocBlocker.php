@@ -4,7 +4,7 @@ namespace Bchalier\ApiDoc\Extracting;
 
 use Bchalier\ApiDoc\Tools\Utils;
 use Illuminate\Routing\Route;
-use Bchalier\Reflection\DocBlock;
+use Mpociot\Reflection\DocBlock;
 use ReflectionClass;
 
 /**

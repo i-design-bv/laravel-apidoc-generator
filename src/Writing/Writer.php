@@ -6,7 +6,7 @@ use Bchalier\ApiDoc\Tools\DocumentationConfig;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
-use Mpociot\Documentarian\Documentarian;
+use Bchalier\Documentarian\Documentarian;
 
 class Writer
 {

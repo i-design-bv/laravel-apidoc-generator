@@ -2,7 +2,7 @@
 
 namespace Bchalier\ApiDoc\Matching;
 
-use Bchalier\ApiDoc\Matching\RouteMatcher\Match;
+use Bchalier\ApiDoc\Matching\RouteMatcher\Matcher;
 use Dingo\Api\Routing\RouteCollection;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Facades\Route as RouteFacade;
@@ -36,7 +36,7 @@ class RouteMatcher implements RouteMatcherInterface
                 }
 
                 if ($this->shouldIncludeRoute($route, $routeRule, $includes, $usingDingoRouter)) {
-                    $matchedRoutes[] = new Match($route, $routeRule['apply'] ?? []);
+                    $matchedRoutes[] = new Matcher($route, $routeRule['apply'] ?? []);
                 }
             }
         }

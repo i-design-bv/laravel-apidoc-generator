@@ -14,7 +14,7 @@ use Illuminate\Http\Response;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Arr;
 use League\Fractal\Resource\Collection;
-use Bchalier\Reflection\DocBlock;
+use Mpociot\Reflection\DocBlock;
 use Mpociot\Reflection\DocBlock\Tag;
 use ReflectionClass;
 use ReflectionMethod;
