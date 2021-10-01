@@ -1,5 +1,5 @@
 {
-    "name": "bchalier/laravel-apidoc-generator",
+    "name": "i-design-bv/laravel-apidoc-generator",
     "license": "MIT",
     "description": "Generate beautiful API documentation from your Laravel application",
     "keywords": [
