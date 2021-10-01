@@ -1,5 +1,5 @@
 {
-    "name": "bchalier/laravel-apidoc-generator",
+    "name": "i-design-bv/laravel-apidoc-generator",
     "license": "MIT",
     "description": "Generate beautiful API documentation from your Laravel application",
     "keywords": [
@@ -17,7 +17,7 @@
     "require": {
         "php": ">=7.2.0",
         "ext-json": "*",
-        "fzaninotto/faker": "^1.8",
+        "fakerphp/faker": "^1.16",
         "illuminate/console": "^5.7|^6.0|^7.0|^8.0",
         "illuminate/routing": "^5.7|^6.0|^7.0|^8.0",
         "illuminate/support": "^5.7|^6.0|^7.0|^8.0",
@@ -31,7 +31,8 @@
     "require-dev": {
         "dingo/api": "^2.3",
         "dms/phpunit-arraysubset-asserts": "^0.1.0",
-        "league/fractal": "^0.17.0",
+        "laravel/lumen-framework": "^5.7|^6.0|^7.0|^8.0",
+        "league/fractal": "^0.19.0",
         "orchestra/testbench": "^3.7|^4.0|^5.0",
         "phpstan/phpstan": "^0.11.15",
         "phpunit/phpunit": "^8.0"
