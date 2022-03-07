@@ -22,7 +22,7 @@
         "illuminate/routing": "^5.7|^6.0|^7.0|^8.0|^9.0",
         "illuminate/support": "^5.7|^6.0|^7.0|^8.0|^9.0",
         "league/flysystem": "^1.0",
-        "bchalier/documentarian": "^0.5.1",
+        "i-design-bv/documentarian": "^0.5.2",
         "mpociot/reflection-docblock": "^1.0.1",
         "nunomaduro/collision": "^3.0|^4.0|^5.0|^6.0",
         "ramsey/uuid": "^3.8|^4.0",
@@ -49,6 +49,12 @@
             "Bchalier\\ApiDoc\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/i-design-bv/documentarian.git"
+        }
+    ],
     "scripts": {
         "lint": "phpstan analyse -c ./phpstan.neon src",
         "test": "phpunit --stop-on-failure --exclude-group dingo",
